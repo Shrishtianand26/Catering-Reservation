@@ -13,7 +13,7 @@ Built with Firebase for real-time database and authentication.
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **HTML, CSS, JavaScript**
 - **Firebase Authentication**
@@ -21,7 +21,7 @@ Built with Firebase for real-time database and authentication.
 
 ---
 
-## 👥 System Roles
+##  System Roles
 
 ### Admin
 -  View all products
