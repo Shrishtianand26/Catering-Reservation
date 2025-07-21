@@ -1,0 +1,170 @@
+*{
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(65%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(228, 164, 135, 0.5);
+  padding: 2rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+.hero-text h1 {
+  color: rgb(55, 39, 35);
+  font-size: 3rem;
+}
+
+section img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #e37e2b;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body.login-page {
+  background: url('https://blog.petpooja.com/wp-content/uploads/2021/10/indian.jpg');
+  background-size: cover;
+  color: white;
+}
+.login-page .form-container {
+  background-color: rgba(215, 159, 145, 0.6);
+  padding: 2rem;
+  margin: 5% auto;
+  width: 300px;
+  border-radius: 10px;
+  color: black;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.login-page button {
+  background-color: #fa943b;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dashboard {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://previews.123rf.com/images/mackoflower/mackoflower2103/mackoflower210300117/165222310-traditional-indian-foods-arranged-as-collage-of-the-cuisine.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.dashboard-container {
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dashboard-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#user-email {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#logout-btn {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#logout-btn:hover {
+  background-color: #d35400;
+}
+button:focus, a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .form-container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .dashboard h1 {
+    font-size: 22px;
+  }
+
+  .dashboard ul li {
+    font-size: 16px;
+  }
+}

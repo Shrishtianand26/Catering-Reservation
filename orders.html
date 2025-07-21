@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <script type="module" src="user-dashboard.js" defer></script>
+</head>
+<body class="user-dashboard">
+  <div class="dashboard">
+    <h1>Welcome to User Dashboard</h1>
+    <p id="user-email"></p>
+
+    <nav>
+      <button onclick="showSection('upload')">Upload Product</button>
+      <button onclick="showSection('orders')">View Orders</button>
+      <button onclick="showSection('profile')">My Profile</button> 
+      <button onclick="logoutUser()">Logout</button>
+    </nav>
+
+    <!-- Upload Product Section -->
+    <section id="upload-section" style="display: none;">
+      <h2>Upload Product</h2>
+      <input type="text" id="productName" placeholder="Product Name" />
+      <input type="text" id="productDescription" placeholder="Product Description" />
+      <input type="number" id="productPrice" placeholder="Price" />
+      <button onclick="uploadProduct()">Submit Product</button>
+    </section>
+
+    <!-- View Orders Section -->
+    <section id="orders-section" style="display: none;">
+      <h2>My Orders</h2>
+      <ul id="orders-list"></ul>
+    </section>
+  
+    <!-- View Profle Section -->
+     <section id="profile-section" style="display: none;">
+        <h2>My Profile</h2>
+        <p><strong>Email:</strong> <span id="profile-email"></span></p>
+        <p><strong>User ID:</strong> <span id="profile-uid"></span></p>
+    </section>
+    </div>
+
+    <script type="module" src="./user.js"></script>
+    
+</body>
+</html>

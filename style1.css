@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Background for User Dashboard */
+body.user-dashboard {
+  background-image: url('https://images.moneycontrol.com/static-mcnews/2024/09/20240916115933_Rajasthani-vegetarian-cuisine-.jpg?impolicy=website&width=770&height=431');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Background for Admin Dashboard */
+body.admin-dashboard {
+  background-image: url('https://cdn.prod.website-files.com/64931d2aee18510b47f4bb1f/64ecfa1fad20286493de9568_r094aj5e10gjt9vzy87jjw7s3dq9xvy1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Dashboard container styling */
+.dashboard {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard li {
+  margin: 10px 0;
+}
+
+.dashboard a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard a:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #00d4ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00aacc;
+}
+
+button:focus, a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+input, button {
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: 2px solid #00d4ff;
+  outline-offset: 2px;
+}

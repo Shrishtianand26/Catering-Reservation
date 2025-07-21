@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body class="admin-dashboard">
+  <div class="dashboard">
+    <h1>Welcome, Admin!</h1>
+    <nav>
+      <ul>
+        <li><a href="upload.html">View Products</a></li>
+        <li><a href="upload.html">Add to Cart</a></li>
+        <li><a href="upload.html">Place Orders</a></li>
+        <li><a href="upload.html">My Orders</a></li>
+        <li><a href="upload.html">My Profile</a></li>
+      </ul>
+      <button onclick="logout()">Logout</button>
+    </nav>
+  </div>
+  <script>
+    function logout() {
+      window.location.href = "login.html";
+    }
+  </script>
+
+</body>
+</html>
