@@ -38,7 +38,7 @@ Built with Firebase for real-time database and authentication.
 - Logout functionality
 
 ---
-
+<!-- 
 ## 📁 Project Files
 CATERING RESERVATION/
 │
@@ -56,9 +56,7 @@ CATERING RESERVATION/
 ├── style.css / style1.css     # Old or separate stylesheets
 ├── user-dashboard.html        # User dashboard
 ├── user.js                    # User logic
-└── node_modules/              # (if used with npm or local dev tools)
-
----
+└── node_modules/              # (if used with npm or local dev tools) -->
 
 ## Workflow & Execution Guide
  1. User Authentication
