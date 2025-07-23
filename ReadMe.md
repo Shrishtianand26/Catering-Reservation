@@ -1,4 +1,4 @@
-#  Catering Reservation System
+# Catering Reservation System
 
 This is a responsive web-based application that helps rural caterers promote and sell their food services online. The system allows both **Users** and **Admins** to register, log in, and perform actions based on their roles.
 Built with Firebase for real-time database and authentication.
@@ -13,7 +13,7 @@ Built with Firebase for real-time database and authentication.
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **HTML, CSS, JavaScript**
 - **Firebase Authentication**
@@ -21,7 +21,7 @@ Built with Firebase for real-time database and authentication.
 
 ---
 
-## 👥 System Roles
+##  System Roles
 
 ### Admin
 -  View all products
@@ -38,28 +38,6 @@ Built with Firebase for real-time database and authentication.
 - Logout functionality
 
 ---
-
-## 📁 Project Files
-CATERING RESERVATION/
-│
-├── admin-dashboard.html       # Admin UI
-├── admin.js                   # Admin logic
-├── auth.js                    # Auth/login logic
-├── dashboard.css              # Combined Admin/User dashboard styles
-├── firebase.js                # Firebase config
-├── index.html                 # Homepage (optional)
-├── login.html                 # Login screen
-├── orders.html                # (Deprecated if dashboard is unified)
-├── upload.html                # (Deprecated if dashboard is unified)
-├── package.json               # Node config (if using tools)
-├── ReadMe.md                  # Project documentation ✅
-├── style.css / style1.css     # Old or separate stylesheets
-├── user-dashboard.html        # User dashboard
-├── user.js                    # User logic
-└── node_modules/              # (if used with npm or local dev tools)
-
----
-
 ## Workflow & Execution Guide
  1. User Authentication
 - Users and Admins log in using Email/Password.
